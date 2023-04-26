@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+
+body{
+    background-color: #d3d3d3;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* *********************/
+/* seccion S O B R E  M I */
+/* *********************/
+
+#sobremi {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #000;
+    display: flex;
+}
+
+#sobremi .contenedor-foto {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#sobremi .contenedor-foto img {
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+#sobremi .sobremi {
+    margin: 0 40px;
+}
+
+#sobremi .sobremi .titulo-seccion {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#sobremi .sobremi h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobremi .sobremi h2 span {
+    color: #ff5080;
+}
+
+#sobremi .sobremi h3 {
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobremi .sobremi p {
+    font-size: 19px;
+    line-height: 25px;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+#sobremi .sobremi a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+
+#sobremi .sobremi .button-modal{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: .5s;
+}
+#sobremi .sobremi .button-modal:hover {
+    background-color: #ff5080;
+    color: #fff;
+}
+#sobremi .sobremi .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  #sobremi .sobremi .modal-content {
+    background-color: #d3d3d3;
+    margin: 15% auto;
+    /*15%fromthetopandcentered*/padding: 20px;
+    border-radius: 30px ;
+    border: 2px solid #000;
+    width: 80%;
+    /*Couldbemoreorless,dependingonscreensize*/;
+    -webkit-border-radius: 30px ;
+    -moz-border-radius: 30px ;
+    -ms-border-radius: 30px ;
+    -o-border-radius: 30px ;
+}
+#sobremi .sobremi .modal-content .container-text .title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+#sobremi .sobremi .modal-content .container-text .txt{
+    color:#080814 ;
+    text-transform: capitalize;
+    font-style: italic;
+}
+  
+  #sobremi .sobremi .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/* *********************/
+/* seccion S E R V I C I O S */
+/* *********************/
+
+#servicios {
+    padding: 100px 15px;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.slider{
+    width: 95%;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+   
+}
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: cambio 20s infinite alternate;
+    -webkit-animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-out;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+   
+    border-radius: 23px;
+    padding-top: 50px;
+    width: 60%;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+}
+
+@keyframes cambio {
+    0%{margin-left: 0;}
+    17%{margin-left: 0;}
+
+    22%{margin-left: -100%;}
+    37%{margin-left: -100%;}
+
+    42%{margin-left: -200%;}
+    57%{margin-left: -200%;}
+
+    62%{margin-left: -300%;}
+    78%{margin-left: -300%;}
+
+    84%{margin-left: -400%;}
+   100%{margin-left: -400%;}
+}
+/* *********************/
+/* seccion P O R T F O L I O */
+/* *********************/
+
+#portfolio {
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+#portfolio .titulo-seccion {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+#portfolio .titulo-seccion2 {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgba(00, 00, 002, 0.961);
+}
+#slideres{
+    margin: 15px ;
+    padding: 10px;
+}
+#slideres .titulo-seccion2 {
+    margin-top: -100px;
+    padding: 15px;
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: rgba(250, 63, 132, 0.961);
+}
+#slideres .container-slider{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff;
+    position: relative;
+}
+.slader{
+    display: flex;
+    width: 800%;
+    height: 500px;
+    margin-left: -100%;
+}
+.slider_section{
+    width: 100%;
+
+}
+.slider_img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+.slider_btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 225, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.slider_btn:hover{
+    background: #fff;
+}
+.slider_btn--left{
+    left: 10px;
+}
+.slider_btn--right{
+    right: 10px;
+}
+/* *********************/
+
+/* *********************/
+/* seccion F O O T E R */
+/* *********************/
+
+footer {
+    background-color: rgba(227, 220, 220, 0.328);
+    color: #000;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+}
+footer .redes a :hover {
+    color: #ff5080;
+}
+/* *********************/
+/* seccion R E S P O N S I V E */
+/* *********************/
+
+@media screen and (max-width: 800px) {
+    .redes {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    nav.responsive {
+        display: block;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+    nav.responsive ul {
+        display: block !important;
+        text-align: center;
+    }
+    nav.responsive ul li {
+        margin: 5px 0;
+    }
+    #icono-nav {
+        display: block;
+    }
+    #inicio .contenido .presentacion h2 {
+        font-size: 40px;
+    }
+    /* seccion SOBRE MI */
+    #sobremi {
+        padding: 50px 0;
+        display: block;
+    }
+    #sobremi .contenedor-foto {
+        max-width: 200px;
+        margin: auto;
+    }
+    #sobremi .contenedor-foto img {
+        padding: 8px;
+    }
+    #sobremi .sobremi .titulo-seccion {
+        text-align: center;
+    }
+    #sobremi .sobremi h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    /* seccion MIS SERVICIOS */
+    #servicios {
+        padding: 50px 15px;
+    }
+    #servicios .fila {
+        display: block;
+    }
+    #servicios .fila .servicio {
+        margin: 10px auto;
+    }
+    /* seccion HABLIDADES MI */
+    .contenedor-skills {
+        padding: 50px 20px;
+    }
+    /* seccion PORTFOLIO */
+    #portfolio {
+        padding: 50px 0;
+    }
+    #portfolio .fila {
+        display: block;
+    }
+    #portfolio .fila .proyecto {
+        margin: 10px auto;
+    }
+    /* seccion CONTACTO */
+    #contacto {
+        padding: 50px 15px;
+    }
+    #contacto .contenedor-form .mitad {
+        margin-bottom: 15px;
+        display: block;
+    }
+    #contacto .contenedor-form .mitad input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

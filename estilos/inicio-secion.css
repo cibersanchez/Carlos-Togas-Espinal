@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: auto;
+    height: 100vh;
+    padding: 1rem;
+}
+.logo img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+.connect{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 28px;
+}
+
+.container-form {
+    max-width: 450px;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: rgba(117, 129, 141, 0.705);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    box-shadow: 1px 1px 10px rgba(117, 116, 116, .219);
+}
+
+.forma *{
+    display: block;
+}
+.forma{
+    width: 100%;
+}
+.forma input[type="text"],.forma input[type="password"], .forma input[type="submit"]{
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 10px;
+    outline-color: #f218ca;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-family: inherit;
+    font-size: 17px;
+    text-align: left;
+}
+.forma input::placeholder{
+    color: #828585;
+}
+.forma input[type="submit"]{
+    background-color: #341f97;
+    text-align: center;
+    padding: .9rem 5rem;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.forma span{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.forma samp a {
+    color: #247df1;
+    text-decoration: none;
+}
+.borde{
+    width: 90%;
+    height: 1px;
+    background-color: #dadde1;
+    margin: 20px auto;
+}
+.forma button{
+    width: 50%;
+    margin: auto;
+    background-color: #30e50b;
+    padding: .9rem .3rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.forma button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+.create-page{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 15px;
+}
+.create-page > a{
+    color: #222;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#myBtn {
+    border: 1px solid #222;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    width: 100%;
+    margin: auto;
+    background-color: #30e50b;
+    padding: .9rem .3rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+#myBtn:hover {
+    background-color: #32b019;
+}
+
+.container-profile{
+    width:40%;
+    margin-left: 100px;
+    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+}
+.logo img{
+    display: inline-block;
+    margin: 0;
+}
+.connect{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 27px;
+}
+.container-for{
+    width: 50%;
+}
+.forma{
+    width: 400px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    height: 88vh;
+    background-color: #fefefe;
+    
+    margin: 40px auto;/*15%fromthetopandcentered*/
+    padding: 8px;
+    border: 1px solid #888;
+    max-width: 460px;/*Couldbemoreorless,dependingonscreensize*/
+    border-radius: 12px;
+}
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    /* formulario */
+
+.caja{
+    height: 95%;
+    max-width: 400px;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: rgba(58, 141, 62, 0.705);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    box-shadow: 1px 1px 10px rgba(117, 116, 116, .219);
+}
+.caja h1{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.caja .form-registro{
+    height: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+.caja .form-registro .form-group{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.caja .form-group input[type="text"], .caja .form-group input[type="password"], .caja .form-group input[type="submit"], .caja .form-group input[type="number"], .caja .form-group input[type="email"], .caja .form-group select{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline-color: #f218ca;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-family: inherit;
+    font-size: 18px;
+    text-align: left;
+}
+.caja .form-group input[type="submit"]{
+    background-color: #30e50b;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+    height: 55px;
+}
+
+.caja .form-group .button:hover {
+    background: #32b019;
+}
+
+
+.caja .form-group1:hover{
+    background: #ff5080;
+}
+
+@media screen and (min-width:450px) {
+    .logo img {
+        width: 300px;
+    }
+    .connect{
+        font-size: 1.5rem;
+    }
+    .forma input::placeholder{
+        font-size: 1rem;
+    } 
+}
+
+@media screen and (min-width:900px){
+    .container{
+        max-width: 1400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}
+@media (min-windth:450px){
+    .caja {
+        align-items: center;
+        justify-content: space-evenly;
+        width: 300px;
+    }
+}
